@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+@media (max-width: 767px){
+	.container{
+		display: none
+	}
+.version_mobile{
+	display: block;
+}	
+.version_mobile .baseintro_mobile
+	{	padding: 0 5rem;
+  position: fixed;
+
+}
+
+.hamburger {        
+	position: fixed;
+        top: 90%;
+        right: 0;
+        background-color: #ec50cf;
+        border: none;
+        color: white;
+        font-size: 10rem;
+        padding: 3rem 3rem;
+        border-radius: 2rem 0 0 2rem;
+        z-index: 1001;
+        cursor: pointer;
+}
+	.contact-mobile a{
+		  text-decoration: none; /* remove o sublinhado */color:white
+	}
+.sidebar {
+        height: 100%;
+        width: 80%;
+        max-width: 300px;
+        background-color: #ec50cf;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        transition: right 0.4s ease;
+        z-index: 1000;
+        padding: 4rem 10rem;
+        display: flex
+;
+        align-items: flex-end;
+        justify-content: flex-start;
+}
+
+.sidebar.active {
+  right: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+        padding: 0;
+        height: 100%;
+        display: flex
+;
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+.sidebar ul li {
+  margin: 5rem 0 0 0;
+}
+	.contact-mobile{
+		padding-top: 10rem; 
+		
+	}
+
+	.sidebar{
+		font-variation-settings: "wght" 500;
+	}
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15rem;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  display: none;
+  z-index: 999;
+}
+
+.overlay.active {
+  display: block;
+}
+	section .intro-top {
+    color: #ff8226;
+    font-size: 6rem;
+    padding: 9rem 0 0 0;
+    margin: 0;
+    font-variation-settings: "wght" 500;
+}
+
+	section h1{
+		padding-top: 6rem;
+		font-size: 18rem;
+	}
+	.art_director_desc{
+		padding-top: 2rem;
+		font-size: 5rem;
+	}
+.home_mobile {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../links/Iara - mobile.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-attachment: fixed; /* este é o segredo do parallax! */
+  display: flex;
+  align-items: flex-start;
+}
+
+	section .subject-center-galery {
+    width: 100%;
+	}
+.disp_galery {
+    display: flex
+;
+    justify-content: center;
+    gap: 5.5rem;
+    flex-wrap: wrap;
+}	.galery {
+    width: 45.2rem;
+    text-align: center;
+}
+.photo {
+    width: 100%;
+    height: 60rem;
+}
+.galery h4 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    color: #373737;
+    font-size: 6rem;
+    text-align: left;
+    font-variation-settings: "wght" 500;
+}
+	.galery p {
+    color: #373737;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-variation-settings: "wght" 400;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.filter-buttons {
+  padding: 5rem 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.filter-btn {
+    padding: 2rem 10rem;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    font-size: 6rem;
+}
+
+
+}
