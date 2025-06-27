@@ -155,11 +155,14 @@ section .subject-center-galery{
 	justify-content: center;
 	gap: 1.5rem;
 	flex-wrap: wrap;}
+div a{
+	    text-decoration: none;
+	color: #373737;
+}
 
 .galery {
- 	width: 20.2rem;
+ 	width: 27.1%;
  	text-align: center;}
-
 
   .galery h4{
 	margin-top: 1.5rem;
@@ -481,7 +484,7 @@ overflow-y: auto; /* Enables scrolling */
 }
 
 .vertical-spacing-1{
-	left: 11.2%;
+	left: 12.2%;
     margin: 1.8rem 0 0 0;
 
 }
@@ -520,7 +523,7 @@ overflow-y: auto; /* Enables scrolling */
 	height: 5rem;
 	background-color: #fff9fd;
 	opacity: 10%;
-margin: 0rem 0 0 -0.8rem;
+margin: 0rem 0 0 0;
 
 }
 .name-orange{
@@ -576,20 +579,23 @@ section .subject-center-orange {
 .fake_margin_horizontal_46rem_text {
     width: 68rem;
     height: 5rem;
-    margin: 0 -2.18rem 0 0;
-    background-color: #fff9fd;
+    margin: 0px -3.40% 0 0;
+	background-color: #fff9fd;
     opacity: 10%;
 }
 
 .vertical-spacing-4 {
-    left: 11.2%;
+    left: 12.2%;
     /* margin: 1.8rem 0 0 0; */
 }
 .vertical-spacing-5 {
-left: 85.2%;
+left: 85.4%;
 	/* margin: 1.8rem 0 0 0; */
 }
-
+.vertical-spacing-20 {
+left: 61%;
+	/* margin: 1.8rem 0 0 0; */
+}
 .fake_margin_vertical_text{
     width: 2.1rem;
     height: 40.8rem;
@@ -602,7 +608,19 @@ left: 85.2%;
     align-items: center;
     justify-content: center;
 }
-
+.fake_margin_vertical_galeria {
+    width: 2.1rem;
+    height: 100%;
+    margin-top: -11rem;
+    background-color: #fff9fd;
+    opacity: 0.1;
+    position: absolute;
+    /* top: 0; */
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
 section div .awards-orange{
 	font-size: 1.5rem;
 	line-height:2rem;
@@ -723,7 +741,7 @@ margin: 0rem 0 0 -1.01rem;
     margin: 0 0 0 -2.1rem;
 }
 .vertical-spacing-10 {
-    left: 48.2%;
+    left: 48.7%;
     /* margin: 1.8rem 0 0 0; */
 }
 .vertical-spacing-11 {
@@ -747,7 +765,7 @@ margin: 0rem 0 0 -1.01rem;
 
 .fake_margin_vertical_contact {
     width: 2.1rem;
-    height: 31.8rem;
+    height: 25.5rem;
     margin-top: -16rem;
     background-color: rgb(255, 249, 253);
     opacity: 0.1;
@@ -898,6 +916,13 @@ section .subject-center-pink {
     left: -1%;
     margin-top: 18.5rem;
     margin-left: 0rem;
+}
+.illustration-7 {
+
+    background-image: url("../links/PNG/FUNDO ROSA .png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .art_director-hightlight{
 	display: inline;
