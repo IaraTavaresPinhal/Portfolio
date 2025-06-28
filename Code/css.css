@@ -1057,32 +1057,46 @@ section .subject-center{
 }
 
 .hamburger {        
-	position: fixed;
-        top: 90%;
+        position: fixed;
+        top: 87%;
         right: 0;
         background-color: #ec50cf;
         border: none;
         color: white;
         font-size: 10rem;
-        padding: 3rem 3rem;
+        padding: 5rem 5rem;
         border-radius: 2rem 0 0 2rem;
         z-index: 1001;
         cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
 }
+.hamburger.active {
+  background-color: #ff8226;
+}
+
+.hamburger.active::before {
+  content: '✕';
+  font-size: 10rem;
+}
+
+.hamburger::before {
+  content: '☰'; /* Ícone hambúrguer padrão */
+}
+
 	.contact-mobile a{
-		  text-decoration: none; /* remove o sublinhado */color:white
+		  text-decoration: none; /* remove o sublinhado */
 	}
 .sidebar {
-        height: 100%;
-        width: 80%;
-        max-width: 300px;
+		font-variation-settings: "wght" 500;
+		height: 100%;
+        width: 100%;
         background-color: #ec50cf;
         position: fixed;
         top: 0;
         right: -100%;
         transition: right 0.4s ease;
         z-index: 1000;
-        padding: 4rem 10rem;
+        padding: 5rem 5rem;
         display: flex
 ;
         align-items: flex-end;
@@ -1104,16 +1118,21 @@ section .subject-center{
 }
 
 .sidebar ul li {
-  margin: 5rem 0 0 0;
+  margin: 5rem 0 5rem 0;
 }
+	.contact-mobile p{
+		font-size: 7rem;
+	}
+	
 	.contact-mobile{
-		padding-top: 10rem; 
+		padding-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
 		
 	}
 
-	.sidebar{
-		font-variation-settings: "wght" 500;
-	}
+
 .sidebar ul li a {
   text-decoration: none;
   color: white;
@@ -1135,32 +1154,31 @@ section .subject-center{
   display: block;
 }
 	section .intro-top {
-    color: #ff8226;
-    font-size: 7rem;
-    padding: 9rem 0 0 0;
-    margin: 0;
-    font-variation-settings: "wght" 500;
+        color: #ff8226;
+        font-size: 7rem;
+        padding: 15rem 0 0 0;
+        margin: 0;
+        font-variation-settings: "wght" 500;
 }
 
 	section h1{
 		padding-top: 7rem;
-		font-size: 18rem;
+        font-size: 25rem;
 	}
 	.art_director_desc{
-        padding-top: 0rem;
-        font-size: 5rem;
+        padding-top: 7rem;
+        font-size: 7rem;
         font-variation-settings: "wght" 500;
-        color: #373737;
+        color: #ec50cf;
 	}
 .home_mobile {
-    
+        background-image: url("../links/Iara - mobile.png");
         position: relative;
         height: 100vh;
         width: 100%;
-        background-image: url("../links/Iara - mobile.png");
-        background-size: auto 110%;
+        background-size: auto 80%;
         background-repeat: no-repeat;
-        background-position: 75% 100%;
+        background-position: center bottom;
         background-attachment: fixed;
         display: flex
 ;
@@ -1188,22 +1206,26 @@ height: 84rem;
 }
 .galery h4 {
     margin-top: 5rem;
-    margin-bottom: 2rem;
-    color: #373737;
-    font-size: 6rem;
+    margin-bottom: 5rem;
+    color: #ec50cf;
+    font-size: 10rem;
     text-align: left;
     font-variation-settings: "wght" 500;
 }
+	.filter-btn.active, .filter-btn:hover {
+    background-color: #ff8226;
+    color: white;
+}
 	.galery p {
     color: #373737;
-    font-size: 4rem;
-    line-height: 5rem;
+		font-size: 7rem;
+        line-height: 8rem;
     font-variation-settings: "wght" 400;
     text-align: left;
     margin-bottom: 5rem;
 }
 .filter-buttons {
-  padding: 7rem 2rem;;
+  padding: 10rem 2rem;;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -1213,14 +1235,18 @@ height: 84rem;
   top: 0;
   z-index: 10;
 }
-.filter-btn {
-        padding: 2rem 3rem;
-        background-color: #f0f0f0;
+
+.filter-btn{
+        padding: 5rem;
         border: none;
         border-radius: 3rem;
         cursor: pointer;
-        font-size: 3rem;
+        font-size: 5rem;
 }
-
+	.filter-btn-v3{
+		    padding: 4rem;
+	    border-radius: 5rem;
+		text-align: center;
+	}
 
 }
