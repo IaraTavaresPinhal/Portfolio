@@ -305,7 +305,7 @@ color: #373737;
     background-size: cover;
 }
 .photo_apresentation_img9 {
-    background-image: url("../links/Projectos/AVK/intro.png");
+    background-image: url("../links/Projectos/Fight for it/ap.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1064,8 +1064,8 @@ section .subject-center{
         border: none;
         color: white;
         font-size: 10rem;
-        padding: 5rem 5rem;
-        border-radius: 2rem 0 0 2rem;
+padding: 4.5rem 4rem 4.5rem 5rem;
+	border-radius: 2rem 0 0 2rem;
         z-index: 1001;
         cursor: pointer;
         transition: background-color 0.3s, transform 0.3s;
@@ -1087,7 +1087,7 @@ section .subject-center{
 		  text-decoration: none; /* remove o sublinhado */
 	}
 .sidebar {
-		font-variation-settings: "wght" 500;
+		font-variation-settings: "wght" 400;
 		height: 100%;
         width: 100%;
         background-color: #ec50cf;
@@ -1121,11 +1121,11 @@ section .subject-center{
   margin: 5rem 0 5rem 0;
 }
 	.contact-mobile p{
-		font-size: 7rem;
+		font-size: 5rem;
 	}
 	
 	.contact-mobile{
-		padding-top: 10rem;
+		padding-top: 5rem;
         display: flex;
         flex-direction: column;
         gap: 3rem;
@@ -1156,7 +1156,7 @@ section .subject-center{
 	section .intro-top {
         color: #ff8226;
         font-size: 7rem;
-        padding: 15rem 0 0 0;
+        padding: 10rem 0 0 0;
         margin: 0;
         font-variation-settings: "wght" 500;
 }
@@ -1176,10 +1176,10 @@ section .subject-center{
         position: relative;
         height: 100vh;
         width: 100%;
-        background-size: auto 80%;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: center bottom;
-        background-attachment: fixed;
+        background-position: center 25rem;
+		background-attachment: fixed;
         display: flex
 ;
         align-items: flex-start;
@@ -1216,6 +1216,12 @@ height: 84rem;
     background-color: #ff8226;
     color: white;
 }
+	.subtitlemobile{
+		        color: #ff8226!important;
+		        font-size: 5rem !important;
+        line-height: 5rem !important;
+		margin-top: 5rem;
+	}
 	.galery p {
     color: #373737;
 		font-size: 7rem;
